@@ -4,4 +4,4 @@
 
 Используются в создании: HTML и CSS.
 
-Ссылка на проект https://alinazavalii20.github.io/russian-travel/
+Ссылка на проект  https://alinazavalii20.github.io/russian-travel/

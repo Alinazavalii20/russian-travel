@@ -1,0 +1,26 @@
+.header{
+    grid-area: header;
+    display: flex;
+    margin: 16px 16px 48px;
+    height: 42px;
+    min-width: 290px;  
+}
+
+@media screen and (min-width: 768px){
+    .header{
+        margin: 28px 24px 48px;
+        height: 52px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .header{
+        margin: 28px 24px 48px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .header{
+        margin-bottom: 56px;
+    }
+}

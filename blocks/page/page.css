@@ -7,9 +7,5 @@
     display: grid;
     grid-template-columns: minmax(320px, 1280px);
     grid-template-rows: repeat(3, min-content);
-    justify-content: center;
-    grid-template-areas: 
-    "header"
-    "content"
-    "footer"; 
+    justify-content: center; 
 }

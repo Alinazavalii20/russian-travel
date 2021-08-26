@@ -1,0 +1,22 @@
+.places{
+    display: grid;
+    grid-template-columns: 48px minmax(min-content, 984px) 48px;
+    row-gap: 80px;
+    margin-bottom: 61px;
+}
+
+@media screen and (min-width: 768px) {
+    .places{
+        grid-template-columns: 16px minmax(2, 720px) 16px;
+        row-gap: 72px;
+        margin-bottom: 90px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .places{
+        grid-template-columns: 1fr minmax(min-content, 456px);
+        row-gap: 80px;
+        margin-bottom: 92px;
+    }
+}

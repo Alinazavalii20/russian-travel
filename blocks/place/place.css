@@ -1,0 +1,28 @@
+.place{
+  grid-column: 2/3;
+  display: grid;
+  grid-template-columns: minmax(min-content, 484px);
+  grid-template-rows: repeat(2, minmax(min-content, max-content));
+  grid-template-areas:
+      "title website"
+      "image paragraphs";
+  gap: 48px 40px;
+}
+
+@media screen and (min-width: 768px){
+  .place{
+    column-gap: 28px;
+  } 
+}
+
+@media screen and (min-width: 1024px){
+  .place{
+    column-gap: 32px;
+  } 
+}
+
+@media screen and (min-width: 1280px){
+  .place{
+    column-gap: 40px;
+  } 
+}

@@ -2,7 +2,7 @@
     min-width: 320px;
     background-color: #2A2C2F;
     color: #FFFFFF;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-family: Inter, Arial, Helvetica, sans-serif;
     font-weight: 400;
     display: grid;
     grid-template-columns: minmax(320px, 1280px);

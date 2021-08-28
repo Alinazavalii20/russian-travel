@@ -7,7 +7,7 @@
   .place{
     grid-column: 2/3;
     display: grid;
-    grid-template-columns: 1fr minmax(min-content, 352px);
+    grid-template-columns: 1fr minmax(min-content, 350px);
   
     grid-template-areas:
       "title website"

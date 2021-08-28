@@ -10,7 +10,7 @@
         grid-template-columns: 16px minmax(2, 720px) 16px;
         row-gap: 72px;
         margin-bottom: 90px;
-        padding: 0 28px 0;
+        padding: 0;
     }
 }
 

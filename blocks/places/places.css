@@ -11,7 +11,6 @@
         row-gap: 72px;
         margin-bottom: 90px;
         padding: 0;
-        padding-left: 24px;
     }
 }
 
@@ -20,7 +19,6 @@
         grid-template-columns: 48px minmax(min-content, 928px) 48px;
         row-gap: 80px;
         margin-bottom: 92px;
-        padding-left: 48px;
     }
 }
 
@@ -29,6 +27,5 @@
         grid-template-columns: 148px minmax(min-content, 984px) 148px;
         row-gap: 80px;
         margin-bottom: 92px;
-        padding-left: 148px;
     }
 }

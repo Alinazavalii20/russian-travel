@@ -7,8 +7,8 @@
   .place{
     grid-column: 2/3;
     display: grid;
-    grid-template-columns: 1fr minmax(min-content, 350px);
-  
+    grid-template-columns: repeat(2,minmax(min-content, 350px));
+    max-width: 930px;
     grid-template-areas:
       "title website"
       "image paragraphs";

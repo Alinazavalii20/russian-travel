@@ -15,17 +15,8 @@
     }
 }
 
-@media screen and (min-width: 1024px) {
-    .lead__title{
-        font-size: 96px;
-        line-height: 100px;
-    }
-}
-
 @media screen and (min-width: 1280px) {
     .lead__title{
-        font-size: 96px;
-        line-height: 100px;
         margin: 0 130px;
     }
 }

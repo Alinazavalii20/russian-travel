@@ -1,5 +1,7 @@
 .lead__caption{
+    grid-area: caption;
     margin: 0;
+    padding-left: 16px;
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
@@ -12,18 +14,13 @@
 
 @media screen and (min-width: 768px) {
     .lead__caption{
-        margin-left: 24px;
+        padding-left: 24px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .lead__caption{
-        margin: 8px 28px 0;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .lead__caption{
-        margin-left: 148px;
+        margin-top: 8px;
+        padding: 0;
     }
 }

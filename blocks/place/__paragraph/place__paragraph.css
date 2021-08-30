@@ -1,20 +1,20 @@
 .place__paragraph{
-    grid-area: paragraph;
     min-width: 290px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 163%;
-    margin: 0 16px;
+    margin: 25px 16px 0px;
 }
 
 .place__paragraph:nth-child(1){
     margin-top: 32px;
+    margin-bottom: 0;
 }
 
 @media screen and (min-width: 768px){
    .place__paragraph{
-       margin-top: 48px;
+       margin-left: 0;
    }
    .place__paragraph:nth-child(1){
     margin-top: 0;
@@ -25,12 +25,14 @@
     .place__paragraph{
         width: 450px;
         font-size: 18px;
-        margin-right: 48px;
+        margin-top: 27px;
     }
+    
  }
 
  @media screen and (min-width: 1280px){
     .place__paragraph{
+        margin-top: 26px;
         width: 484px;
     }
  }

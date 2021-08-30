@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     margin: 16px 16px 48px;
-    min-width: 290px;  
+    min-width: 290px;
 }
 
 @media screen and (min-width: 768px){
@@ -11,8 +11,15 @@
     }
 }
 
+@media screen and (min-width: 1024px){
+    .header{
+        margin: 28px 48px 48px;
+    }
+}
+
 @media screen and (min-width: 1280px){
     .header{
         margin-bottom: 56px;
+        max-width: 1184px; 
     }
 }
